@@ -23,8 +23,7 @@
     <dimen name="avatar_40">40dp</dimen>
     <dimen name="icon_24">24dp</dimen>
     <dimen name="target_on_both_48">48dp</dimen>
+    <dimen name="line_divider">1dp</dimen>
 
 
-
-    
 </resources>
