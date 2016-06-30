@@ -24,6 +24,8 @@
     <dimen name="icon_24">24dp</dimen>
     <dimen name="target_on_both_48">48dp</dimen>
     <dimen name="line_divider">1dp</dimen>
+    <dimen name="img_size">256dp</dimen>
+    <dimen name="fab_right_space">8dp</dimen>
 
 
 </resources>
