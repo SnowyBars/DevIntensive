@@ -20,7 +20,8 @@ import android.widget.ImageView;
 import com.softdesign.devintensive.R;
 import com.softdesign.devintensive.data.managers.DataManager;
 import com.softdesign.devintensive.utils.ConstantManager;
-import com.softdesign.devintensive.utils.RoundedAvatarDrawable;
+import com.softdesign.devintensive.utils.RoundedAvatar;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -187,7 +188,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
         NavigationView navigationView = (NavigationView)findViewById(R.id.navigation_view);
         View view = navigationView.getHeaderView(0);
         mUserAvatar = (ImageView)view.findViewById(R.id.user_avatar);
-        mUserAvatar.setImageBitmap(RoundedAvatarDrawable.getRoundedBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.avatar)));
+        mUserAvatar.setImageBitmap(RoundedAvatar.getRoundedBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.avatar)));
         assert navigationView != null;
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener(){
             @Override

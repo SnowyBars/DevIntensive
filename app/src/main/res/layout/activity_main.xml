@@ -59,14 +59,14 @@
                 android:orientation="vertical">
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="112dp"
+                    android:layout_height="@dimen/head_block_size"
                     android:background="@color/grey"
                     android:gravity="center"
                     android:orientation="horizontal">
                     <TextView
                         style="@style/head_text_block"
                         android:layout_weight="0.3"
-                        android:text="@string/rating"/>
+                        android:text="@string/head.block.rating"/>
                     <View
                         android:layout_width="@dimen/line_divider"
                         android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
                     <TextView
                         style="@style/head_text_block"
                         android:layout_weight="0.4"
-                        android:text="@string/write_code"/>
+                        android:text="@string/head.block.writecode"/>
                     <View
                         android:layout_width="@dimen/line_divider"
                         android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
                     <TextView
                         style="@style/head_text_block"
                         android:layout_weight="0.3"
-                        android:text="@string/projects"/>
+                        android:text="@string/head.block.projects"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -94,7 +94,7 @@
                         style="@style/icon.left"
                         android:src="@drawable/ic_call_black_24dp"/>
                     <LinearLayout
-                        android:layout_width="0dp"
+                        android:layout_width="@dimen/zero_size"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
@@ -108,9 +108,9 @@
                                 android:id="@+id/user_phone"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:hint="Мобильный телефон"
+                                android:hint="@string/hint.userphone"
                                 android:inputType="phone"
-                                android:text="+7(999)999-99-99"
+                                android:text="@string/user.phone"
                                 android:enabled="false"
                                 android:textColor="@color/black"
                                 android:textColorHint="@color/black"
@@ -139,7 +139,7 @@
                         style="@style/icon.left"
                         android:src="@drawable/ic_email_black_24dp"/>
                     <LinearLayout
-                        android:layout_width="0dp"
+                        android:layout_width="@dimen/zero_size"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:orientation="vertical"
@@ -153,9 +153,9 @@
                                 android:id="@+id/user_mail"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:hint="E-mail"
+                                android:hint="@string/hint.usermail"
                                 android:inputType="textEmailAddress"
-                                android:text="mail@mail.ru"
+                                android:text="@string/user.mailaddress"
                                 android:enabled="false"
                                 android:textColor="@color/black"
                                 android:textColorHint="@color/black"
@@ -183,7 +183,7 @@
                         style="@style/icon.left"
                         android:src="@drawable/vk_circle"/>
                     <LinearLayout
-                        android:layout_width="0dp"
+                        android:layout_width="@dimen/zero_size"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:orientation="vertical"
@@ -197,9 +197,9 @@
                                 android:id="@+id/user_vk"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:hint="Профиль в VK"
+                                android:hint="@string/hint.vk_account"
                                 android:inputType="textUri"
-                                android:text="vk.com/id116391716"
+                                android:text="@string/user.vk"
                                 android:enabled="false"
                                 android:textColor="@color/black"
                                 android:textColorHint="@color/black"
@@ -227,7 +227,7 @@
                         style="@style/icon.left"
                         android:src="@drawable/github_circle"/>
                     <LinearLayout
-                        android:layout_width="0dp"
+                        android:layout_width="@dimen/zero_size"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:orientation="vertical"
@@ -241,9 +241,9 @@
                                 android:id="@+id/user_git"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:hint="Репозиторий"
+                                android:hint="@string/hint.repogit"
                                 android:inputType="textUri"
-                                android:text="github.com/SnowyBars/DevIntensive"
+                                android:text="@string/user.git"
                                 android:enabled="false"
                                 android:textColor="@color/black"
                                 android:textColorHint="@color/black"
@@ -271,7 +271,7 @@
                         android:layout_gravity="top|left"
                         android:src="@drawable/ic_account_circle_black_24dp"/>
                     <LinearLayout
-                        android:layout_width="0dp"
+                        android:layout_width="@dimen/zero_size"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:orientation="vertical"
@@ -285,9 +285,9 @@
                                 android:id="@+id/user_bio"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:hint="О себе"
+                                android:hint="@string/hint.bio"
                                 android:inputType="text"
-                                android:text="Здесь будет находится информация пользователя"
+                                android:text="@string/user.bio"
                                 android:enabled="false"
                                 android:textColor="@color/black"
                                 android:textColorHint="@color/black"
