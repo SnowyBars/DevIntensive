@@ -17,4 +17,17 @@
     <string name="drawer.header.user.mail">mail@mail.ru</string>
     <string name="drawer.menu.profile">Мой профиль</string>
     <string name="drawer.menu.team">Команда</string>
+    <string name="user_profile.placeholder.image">Изменить фотографию профиля</string>
+    <string name="user_profile.dialog.camera">Сдедать снимок</string>
+    <string name="user_profile.dialog.load_from_gallery">Загрузить из галереи</string>
+    <string name="user_profile.dialog.cancel">Отменить</string>
+    <string name="user_profile.choose.message">Выберите фото</string>
+    <string name="user_profile.need.permission">Для корректной работы приложения необходимо дать требуемые разрешения</string>
+    <string name="user_profile.permit">Разрешить</string>
+    <string name="user_profile.error.input.number_phone">Неверный ввод номера телефона</string>
+    <string name="user_profile.error.input.email">Неверный ввод e-mail</string>
+    <string name="user_profile.error.input.account_vk">Неверный ввод адреса профиля ВК</string>
+    <string name="user_profile.error.input.repo_git">Неверный ввод адреса репозитория Git</string>
+    <string name="intent_send.extra_subject">Subject</string>
+    <string name="user_profile.extra_text">Text body of mail</string>
 </resources>
