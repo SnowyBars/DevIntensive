@@ -28,6 +28,4 @@
     <string name="user_profile.error.input.email">Неверный ввод e-mail</string>
     <string name="user_profile.error.input.account_vk">Неверный ввод адреса профиля ВК</string>
     <string name="user_profile.error.input.repo_git">Неверный ввод адреса репозитория Git</string>
-    <string name="intent_send.extra_subject">Subject</string>
-    <string name="user_profile.extra_text">Text body of mail</string>
 </resources>

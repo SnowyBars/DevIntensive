@@ -223,12 +223,11 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     }
 
 
-    //обработка нажатия системной кнопки back
+    //обработка нажатия системной нопки back
     @Override
     public void onBackPressed() {
         mDrawerLayout.closeDrawer(GravityCompat.START);
     }
-
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -464,8 +463,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         Intent dialEmailIntent = new Intent(Intent.ACTION_SEND);
         dialEmailIntent.setType("text/html");
         dialEmailIntent.putExtra(Intent.EXTRA_EMAIL, address);
-        dialEmailIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.intent_send_extra_subject));
-        dialEmailIntent.putExtra(Intent.EXTRA_TEXT, getString(R.string.user_profile_extra_text));
+        dialEmailIntent.putExtra(Intent.EXTRA_SUBJECT, "Subject");
+        dialEmailIntent.putExtra(Intent.EXTRA_TEXT, "Text of mail");
         startActivity(Intent.createChooser(dialEmailIntent, "Send mail"));
     }
     private void actionVK(){
