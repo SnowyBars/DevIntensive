@@ -4,9 +4,9 @@
     <item android:id="@+id/user_profile_menu"
           android:checkable="true"
           android:icon="@drawable/ic_account_circle_black_24dp"
-          android:title="Мой профиль"/>
+          android:title="@string/drawer.menu.profile"/>
     <item android:id="@+id/team"
           android:icon="@drawable/ic_people_black_24dp"
-          android:title="Команда"/>
+          android:title="@string/drawer.menu.team"/>
 </group>
 </menu>

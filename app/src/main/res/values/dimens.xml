@@ -26,6 +26,12 @@
     <dimen name="line_divider">1dp</dimen>
     <dimen name="img_size">256dp</dimen>
     <dimen name="fab_right_space">8dp</dimen>
+    <dimen name="head_block_size">112dp</dimen>
+    <dimen name="zero_size">0dp</dimen>
+    <dimen name="drawer_header_size">172dp</dimen>
+    <dimen name="user_avatar_size">60dp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="placeholder_photo_size_90">90dp</dimen>
 
 
 </resources>

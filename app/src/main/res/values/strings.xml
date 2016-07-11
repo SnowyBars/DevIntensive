@@ -1,6 +1,31 @@
 <resources>
     <string name="app_name">Антон Столетов</string>
-    <string name="rating">5\n\n Рейтинг</string>
-    <string name="write_code">5000\n\n Написано строк\n кода</string>
-    <string name="projects">5\n\n Проектов</string>
+    <string name="head.block.rating">5\n\n Рейтинг</string>
+    <string name="head.block.writecode">5000\n\n Написано строк\n кода</string>
+    <string name="head.block.projects">5\n\n Проектов</string>
+    <string name="hint.bio">О себе</string>
+    <string name="hint.repogit">Репозиторий</string>
+    <string name="hint.usermail">E-mail</string>
+    <string name="hint.userphone">Мобильный телефон</string>
+    <string name="hint.vk_account">Профиль в VK</string>
+    <string name="user.bio">Здесь будет находится информация пользователя</string>
+    <string name="user.git">github.com/SnowyBars/DevIntensive</string>
+    <string name="user.mailaddress">mail@mail.ru</string>
+    <string name="user.phone">+7(999)999-99-99</string>
+    <string name="user.vk">vk.com/id116391716</string>
+    <string name="drawer.header.user.name">Антон Столетов</string>
+    <string name="drawer.header.user.mail">mail@mail.ru</string>
+    <string name="drawer.menu.profile">Мой профиль</string>
+    <string name="drawer.menu.team">Команда</string>
+    <string name="user_profile.placeholder.image">Изменить фотографию профиля</string>
+    <string name="user_profile.dialog.camera">Сдедать снимок</string>
+    <string name="user_profile.dialog.load_from_gallery">Загрузить из галереи</string>
+    <string name="user_profile.dialog.cancel">Отменить</string>
+    <string name="user_profile.choose.message">Выберите фото</string>
+    <string name="user_profile.need.permission">Для корректной работы приложения необходимо дать требуемые разрешения</string>
+    <string name="user_profile.permit">Разрешить</string>
+    <string name="user_profile.error.input.number_phone">Неверный ввод номера телефона</string>
+    <string name="user_profile.error.input.email">Неверный ввод e-mail</string>
+    <string name="user_profile.error.input.account_vk">Неверный ввод адреса профиля ВК</string>
+    <string name="user_profile.error.input.repo_git">Неверный ввод адреса репозитория Git</string>
 </resources>
