@@ -16,6 +16,7 @@
             android:gravity="center"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/rating"
                 style="@style/head_text_block"
                 android:layout_weight="0.3"
                 android:text="@string/head.block.rating"/>
@@ -24,6 +25,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/white"/>
             <TextView
+                android:id="@+id/code_lines"
                 style="@style/head_text_block"
                 android:layout_weight="0.4"
                 android:text="@string/head.block.writecode"/>
@@ -32,6 +34,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/white"/>
             <TextView
+                android:id="@+id/projects"
                 style="@style/head_text_block"
                 android:layout_weight="0.3"
                 android:text="@string/head.block.projects"/>
